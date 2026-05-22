@@ -1,6 +1,5 @@
 # 🕵️‍♂️ Spark Bug Hunt
-
-Welcome to **Spark Bug Hunt**! This is my very first project created entirely with the help of an AI Agent. Even with no prior coding experience, I was able to set up a sophisticated, self-evolving AI system on Windows.
+Welcome to **Spark Bug Hunt** — a structured quality assurance initiative focused on stress-testing Spark Intelligence,a self-evolving AI runtime. This repository documents my systematic exploration of the Spark CLI, tracking bugs, edge cases, and behavioral anomalies discovered during real-world usage on a Windows environment.
 
 ## 🚀 What is Spark Intelligence?
 Spark Intelligence (by @Spark_coded) is a "living intelligence" layer for AI agents. Unlike traditional chatbots, Spark:
