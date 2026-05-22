@@ -35,6 +35,7 @@ I use this section to track any unexpected behaviors or improvements I find.
 | ID | Date | Description | Status |
 |----|------|-------------|--------|
 | 001 | 2026-05-22 | Initial setup successful; no bugs found yet. | ✅ Resolved |
+| 002 | 2026-05-22 | `spark learn` command crashes with `AttributeError: 'NoneType' object has no attribute 'insight'`. Run `spark learn meta "This is a test"` to reproduce. Breaks manual learning feature. | 🔴 High Priority |
 
 ---
 *Created with ❤️ by George & Gemini CLI*
