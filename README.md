@@ -37,6 +37,8 @@ I use this section to track any unexpected behaviors or improvements I find.
 | 002 | 2026-05-22 | `spark learn` command crashes with `AttributeError: 'NoneType' object has no attribute 'insight'`. Run `spark learn meta "This is a test"` to reproduce. Breaks manual learning feature. | 🔴 High Priority |
 | 003 | 2026-05-22 | Config type validation failure. `spark config set advisor.max_items 'any-text'` accepts a string instead of a number. Will cause crashes when the setting is used. | 🟡 Medium Priority |
 | 004 | 2026-05-22 | Missing "Chips" directory. Running `spark chips list` returns `Chips directory not found`. Folder is not created during standard installation, blocking new users from accessing domain chips. | 🟡 Medium Priority |
+| 005 | 2026-05-22 | Configuration Desync (Silent Failure). `spark config set` confirms "Saved successfully" but `spark advisory doctor` ignores the change and uses old values. User believes system is configured but AI silently ignores them. Reproduce: Set `advisory.preferred_provider` to any value, then run `spark advisory doctor`. | 🔴 High Priority |
+| 006 | 2026-05-22 | Inconsistent Project Status. After running `spark project answer` on a decision question, global "Questions answered" counter increments but "Decisions" count stays at zero. System memory is inconsistent between counters. Reproduce: Answer a [decision] question and check `spark project status`. | 🟡 Medium Priority |
 
 ---
 *Created with ❤️ by George & Gemini CLI*
