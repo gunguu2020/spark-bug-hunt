@@ -36,6 +36,8 @@ I use this section to track any unexpected behaviors or improvements I find.
 |----|------|-------------|--------|
 | 001 | 2026-05-22 | Initial setup successful; no bugs found yet. | ✅ Resolved |
 | 002 | 2026-05-22 | `spark learn` command crashes with `AttributeError: 'NoneType' object has no attribute 'insight'`. Run `spark learn meta "This is a test"` to reproduce. Breaks manual learning feature. | 🔴 High Priority |
+| 003 | 2026-05-22 | Config type validation failure. `spark config set advisor.max_items 'any-text'` accepts a string instead of a number. Will cause crashes when the setting is used. | 🟡 Medium Priority |
+| 004 | 2026-05-22 | Missing "Chips" directory. Running `spark chips list` returns `Chips directory not found`. Folder is not created during standard installation, blocking new users from accessing domain chips. | 🟡 Medium Priority |
 
 ---
 *Created with ❤️ by George & Gemini CLI*
